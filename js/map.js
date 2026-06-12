@@ -102,7 +102,6 @@ maxZoom:19
 }
 
 )
-loadUser()
 .addTo(
 map
 )
@@ -1066,7 +1065,7 @@ airportsLayer
 
 }
 window.onload=()=>{
-
+loadUser()
 document
 .getElementById(
 'airportMenuClose'
