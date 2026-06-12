@@ -1035,8 +1035,4 @@ async function loadUser()
 
     document.getElementById('userid').innerText=session.authid
 
-    alert(
-    '2'
-    )
-
 }
