@@ -1,8 +1,5 @@
 import { supabase } from "./supabase.js"
 
-console.log(
-'LOGIN JS LOADED'
-)
 
 const form =
 document.getElementById(
@@ -22,9 +19,6 @@ async(e)=>{
 
 e.preventDefault()
 
-console.log(
-'SUBMIT'
-)
 
 const login =
 document
@@ -89,16 +83,6 @@ password:
 password
 
 })
-
-console.log(
-'AUTH:',
-data
-)
-
-console.log(
-'ERROR:',
-dbError
-)
 
 if(
 dbError

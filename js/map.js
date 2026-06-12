@@ -42,6 +42,8 @@ async function loadUser()
     document.getElementById('userNAME').innerText=data.username
 
     document.getElementById('userLOGIN').innerText=session.email
+    console.error('SUCESS', data.username)
+    console.error('SUCESS', session.email)
 
 }
 
