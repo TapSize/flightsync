@@ -13,17 +13,39 @@ window.location.href =
 }
 
 
-document.getElementById(
-'username'
-).innerText =
+async function loadUser()
+{
 
-session.username
+    if(!session)
+    {
+        window.location.href='login.html'
+        return
+    }
 
-document.getElementById(
-'userlogin'
-).innerText =
+    const{data,error}=await supabase
 
-session.authid
+    .from('users')
+
+    .select('username, userrole')
+
+    .eq('email',session.email)
+
+    .single()
+
+    if(error || !data)
+    {
+        console.error('USER LOAD ERROR',error)
+        return
+    }
+
+    window.currentUser=data
+
+    document.getElementById('username').innerText=data.username
+
+    document.getElementById('userlogin').innerText=session.email
+
+}
+
 
 function updateClock()
 {
