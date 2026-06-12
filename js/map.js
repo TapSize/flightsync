@@ -12,37 +12,18 @@ window.location.href =
 
 }
 
-document.getElementById(
-'userName'
-).innerText=
-
-session.email
-??
-
-'USER'
 
 document.getElementById(
-'userId'
-).innerText=
+'username'
+).innerText =
 
-'ID '+
+session.username
 
-(
+document.getElementById(
+'userlogin'
+).innerText =
+
 session.authid
-?.slice(
-0,
-8
-)
-??
-
-'----'
-)
-
-document.getElementById(
-'userRole'
-).innerText=
-
-'AUTHORIZED'
 
 function updateClock()
 {
