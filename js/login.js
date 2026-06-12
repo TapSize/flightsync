@@ -1,7 +1,9 @@
 import { supabase } from "./supabase.js"
+
 console.log(
 'LOGIN JS LOADED'
 )
+
 const form =
 document.getElementById(
 'loginForm'
@@ -17,10 +19,12 @@ form.addEventListener(
 'submit',
 
 async(e)=>{
+
+e.preventDefault()
+
 console.log(
 'SUBMIT'
 )
-e.preventDefault()
 
 const login =
 document
@@ -44,7 +48,7 @@ if(
 !password
 ){
 
-error.innerText =
+error.innerText=
 'Введіть логін та пароль'
 
 return
@@ -62,62 +66,42 @@ document
 
 try{
 
-const {
+const{
+
 data,
+
 error:dbError
+
 }
+
 =
 
 await supabase
+
+.auth
+
+.signInWithPassword({
+
+email:
+login,
+
+password:
+password
+
+})
+
 console.log(
-'DATA:',
+'AUTH:',
 data
 )
 
 console.log(
-'DB ERROR:',
-dbError
-)
-.from(
-'users'
-)
-
-.select('*')
-
-.eq(
-'userlogin',
-login
-)
-
-.eq(
-'userpassword',
-password
-)
-
-.maybeSingle()
-console.log(
-'DATA:',
-data
-)
-
-console.log(
-'DB ERROR:',
+'ERROR:',
 dbError
 )
 
-console.log(
-'LOGIN:',
-login
-)
-
-console.log(
-'PASSWORD:',
-password
-)
 if(
 dbError
-||
-!data
 ){
 
 document
@@ -128,7 +112,7 @@ document
 'УВІЙТИ'
 
 error.innerText=
-'Невірний логін та пароль'
+'Невірний логін або пароль'
 
 return
 
@@ -140,17 +124,11 @@ localStorage.setItem(
 
 JSON.stringify({
 
-userid:
-data.userid,
+authid:
+data.user.id,
 
-username:
-data.username,
-
-userlogin:
-data.userlogin,
-
-userrole:
-data.userrole
+email:
+data.user.email
 
 })
 
@@ -163,7 +141,9 @@ window.location.href=
 
 catch(e){
 
-console.error(e)
+console.error(
+e
+)
 
 document
 .querySelector(
