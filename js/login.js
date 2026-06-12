@@ -1,5 +1,7 @@
 import { supabase } from "./supabase.js"
-
+console.log(
+'LOGIN JS LOADED'
+)
 const form =
 document.getElementById(
 'loginForm'
@@ -15,7 +17,9 @@ form.addEventListener(
 'submit',
 
 async(e)=>{
-
+console.log(
+'SUBMIT'
+)
 e.preventDefault()
 
 const login =
