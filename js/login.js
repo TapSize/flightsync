@@ -96,13 +96,23 @@ password
 
 .maybeSingle()
 console.log(
-'LOGIN:',
+'DATA:',
 data
 )
 
 console.log(
-'ERROR:',
+'DB ERROR:',
 dbError
+)
+
+console.log(
+'LOGIN:',
+login
+)
+
+console.log(
+'PASSWORD:',
+password
 )
 if(
 dbError
