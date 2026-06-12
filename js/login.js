@@ -69,7 +69,15 @@ error:dbError
 =
 
 await supabase
+console.log(
+'DATA:',
+data
+)
 
+console.log(
+'DB ERROR:',
+dbError
+)
 .from(
 'users'
 )
