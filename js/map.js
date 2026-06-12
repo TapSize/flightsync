@@ -12,7 +12,6 @@ window.location.href =
 
 }
 
-
 async function loadUser()
 {
 
@@ -40,9 +39,9 @@ async function loadUser()
 
     window.currentUser=data
 
-    document.getElementById('username').innerText=data.username
+    document.getElementById('userNAME').innerText=data.username
 
-    document.getElementById('userlogin').innerText=session.email
+    document.getElementById('userLOGIN').innerText=session.email
 
 }
 
@@ -103,7 +102,7 @@ maxZoom:19
 }
 
 )
-
+loadUser()
 .addTo(
 map
 )
