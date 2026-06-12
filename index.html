@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0"
+
+>
+
+<title>
+FLIGHTSYNC
+</title>
+
+<link
+rel="stylesheet"
+href="css/main.css"
+>
+
+</head>
+
+<body>
+
+<div id="loading">
+
+<div class="logo">
+
+FLIGHTSYNC
+
+</div>
+
+<div class="subtitle">
+
+INITIALIZING SYSTEM
+
+</div>
+
+</div>
+
+<script>
+
+const session =
+localStorage.getItem(
+'flightsync_session'
+)
+
+setTimeout(()=>{
+
+if(
+session
+){
+
+window.location.href =
+'login.html'
+
+}
+else{
+
+window.location.href =
+'index.html'
+
+}
+
+},1500)
+
+</script>
+
+<script
+src="js/app.js"
+></script>
+
+</body>
+
+</html>

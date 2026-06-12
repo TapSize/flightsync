@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1"
+>
+
+<title>FLIGHTSYNC MAP</title>
+
+<link
+rel="stylesheet"
+href="css/map.css"
+>
+
+<link
+rel="stylesheet"
+href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+>
+
+</head>
+
+<body>
+
+<div id="map"></div>
+
+<!-- TOP BAR -->
+
+<div class="topbar">
+
+<div class="topbar-item topbar-logo">
+
+<div class="topbar-logo-icon">
+✈
+</div>
+
+<div>
+
+<div class="topbar-main">
+FLIGHTSYNC
+</div>
+
+<div class="topbar-sub">
+LIVE AIRCRAFT SYNC
+</div>
+
+</div>
+
+</div>
+
+
+<div class="topbar-item">
+
+<div>
+
+<div
+id="username"
+class="topbar-main"
+>
+NAME —
+</div>
+
+<div
+id="userrole"
+class="topbar-sub"
+>
+ROLE —
+</div>
+
+</div>
+
+</div>
+
+
+<div class="topbar-item">
+
+<div>
+
+<div
+id="userid"
+class="topbar-main"
+>
+USER —
+</div>
+
+<div
+id="userlogin"
+class="topbar-sub"
+>
+LOGIN —
+</div>
+
+</div>
+
+</div>
+
+
+<div class="topbar-item">
+
+<div>
+
+<div
+id="currentTime"
+class="topbar-main"
+>
+00:00:00
+</div>
+
+<div class="topbar-sub">
+TIME LOCAL
+</div>
+
+</div>
+
+</div>
+
+
+<div class="topbar-item">
+
+<button
+id="logout"
+class="logout-btn"
+>
+⤴
+</button>
+
+</div>
+
+</div>
+
+
+<!-- LEFT PANEL -->
+
+<div class="leftbar">
+
+<button
+id="online"
+>
+TR
+</button>
+
+<button
+id="zones"
+>
+AR
+</button>
+<button
+id="map_layers"
+>
+🗺
+</button>
+<button
+id="airports"
+>
+✈
+</button>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script src="https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js"></script>
+<script
+src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+></script>
+
+<script
+type="module"
+src="js/map.js"
+></script>
+<div id="airportMenu">
+
+<button id="airportMenuClose">✕</button>
+<div
+id="airportTitle"
+>
+
+AIRPORT
+
+</div>
+
+<iframe
+id="airportChart"
+></iframe>
+</div>
+<div
+id="aircraftCounter"
+>
+
+AIRCRAFTS ONLINE: 0
+
+</div>
+</body>
+
+</html>

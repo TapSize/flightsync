@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>UKRAINE_UKD.kml</name>
+	<Style id="TrackStyle_FF7043C8">
+		<LineStyle>
+			<color>c84370ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>UKD</name>
+		<Placemark>
+			<name>UKD-101</name>
+			<description>Upper limit 2450 M
+Lower limit SFC
+Remarks
+Planned hours specified in daily UK AUP
+AMC-manageable area
+Bombing, firing
+Real-time activity information and/or crossing clearance from Odesa Radar 120.9
+NOTAM</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.125Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					31.1166664983,46.2333332133,0 31.2499997791,46.14999991280001,0 31.3333331633,46.1999998931,0 31.2166664589,46.29999989550001,0 31.1166664983,46.2333332133,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-102</name>
+			<description>Upper limit 2150 M
+Lower limit SFC
+Remarks
+Planned hours specified in daily UK AUP
+AMC-manageable area
+Firing
+Real-time activity information and/or crossing clearance from Odesa Radar 120.9, Odesa Radar 130.475
+NOTAM</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.125Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					31.4499997839,46.4166665581,0 31.4499997839,46.35333323300001,0 31.5383331411,46.35333323300001,0 31.5349998258,46.4166665581,0 31.4499997839,46.4166665581,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-103</name>
+			<description>Upper limit FL 235
+Lower limit SFC
+Remarks
+Planned hours specified in daily UK AUP
+AMC-manageable area
+Firing, blasting
+Real-time activity information and/or crossing clearance from Odesa Radar 120.9, Odesa Radar 130.475
+NOTAM</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.125Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					31.4516664416,46.3216665704,0 31.4516664416,46.2933332231,0 31.5666664884,46.2730554296,0 31.6583331608,46.3333332157,0 31.5833331485,46.3783332231,0 31.5349998258,46.3783332231,0 31.4516664416,46.3216665704,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-104</name>
+			<description>Upper limit UNL
+Lower limit SFC
+Remarks
+Planned hours specified in daily UK AUP
+AMC-manageable area
+Bombing, firing
+Real-time activity information and/or crossing clearance from Odesa Radar 123.950, Odesa Radar 130.475
+NOTAM</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.125Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					31.683333109,45.99999988819999,0 32.3666664241,45.6666665607,0 32.5899998034,45.8999998857,0 32.2983331261,46.0333332084,0 31.9149997765,45.99999988819999,0 31.683333109,45.99999988819999,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-104Z</name>
+			<description>Upper limit UNL
+Lower limit FL 275
+Remarks
+FBZ around and including UKD104
+Activation simultaneously with UKD104
+Flight planning up to the boundary of FBZ is allowed</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					31.5430553377,45.9661110155,0 32.3391664895,45.5777776929,0 32.4372220161,45.59083321960001,0 32.7166664536,45.8822221206,0 32.6969442546,45.95055546049999,0 32.327222026,46.11972213160001,0 31.9074998171,46.0833332305,0 31.5949997519,46.0833332305,0 31.5430553377,45.9661110155,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-105A</name>
+			<description>Location Urzuf
+Upper limit 2900 M
+Lower limit SFC
+Remarks
+AMC-manageable area
+Planned hours specified in daily UK AUP
+Artillery firing, rocket launching, blasting
+Pentration prohibited during activation
+MON - FRI 06:00 - 16:00 (05:00 - 20:00)
+Real-time information from: Dnipro Radar 125.125,
+Dnipro Radar 134.300, Dnipro Information 122.700</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					36.7824997791,46.9363887694,0 36.8780553193,46.5694443454,0 37.2594442351,46.5699998979,0 37.4311108927,46.7936110116,0 37.0347219745,47.0105554529,0 36.7824997791,46.9363887694,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-105B</name>
+			<description>Location Urzuf 
+Upper limit FL 315
+Lower limit 2900 M
+Remarks
+AMC-manageable area
+Planned hours specified in daily UK AUP
+Artillery firing, rocket launching, blasting
+Pentration prohibited during activationAMC-manageable area
+Planned hours specified in daily UK AUP
+Artillery firing, rocket launching
+Pentration prohibited during activation
+MON - FRI 06:00 - 16:00 (05:00 - 20:00)
+Real-time information from:
+Dnipro Radar 125.125, Dnipro Radar 134.300
+MON - FRI 06:00 - 16:00 (05:00 - 20:00)
+Real-time information from: Dnipro Radar 125.125,
+Dnipro Radar 134.300, Dnipro Information 122.700</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					36.7824997791,46.9363887694,0 36.8780553193,46.5694443454,0 37.2594442351,46.5699998979,0 37.4311108927,46.7936110116,0 37.0347219745,47.0105554529,0 36.7824997791,46.9363887694,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-105BZ</name>
+			<description>Location Urzuf 
+Upper limit FL 325
+Lower limit FL 275
+Remarks
+FBZ around and including UKD105B
+Activation simultaneously with UKD105B
+Flight planning up to the boundary of FBZ is allowed</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					36.6449997705,46.9869443441,0 36.7766664775,46.4852776742,0 37.3141664958,46.486111003,0 37.5005553796,46.7822221007,0 37.5549997802,46.7955554455,0 37.5416664354,46.83999990029999,0 37.0536109286,47.1072220981,0 36.6449997705,46.9869443441,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-107</name>
+			<description>Upper limit UNL
+Lower limit SFC
+Remarks
+Planned hours specified in daily UK AUP
+AMC-manageable area
+Firing
+Real-time activity information and/or crossing clearance from: Odesa Radar 123.950
+NOTAM</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					32.816666498,44.6999998983,0 32.5499997689,44.8999999032,0 32.2736108704,44.9913887993,0 32.1319442177,44.7997221245,0 32.1986109419,44.683055462,0 32.665277592,44.6080554496,0 32.816666498,44.6999998983,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-107Z</name>
+			<description>Upper limit UNL
+Lower limit FL 275
+Remarks
+FBZ around and including UKD107
+Activation simultaneously with UKD107
+Flight planning up to the boundary of FBZ is allowed</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					32.9363886576,44.7313887846,0 32.6199998084,44.9691665719,0 32.280555361,45.0813887722,0 32.1911108987,45.05999987360001,0 32.0024998048,44.8041665448,0 32.1133331237,44.6108332124,0 32.696388702,44.5172221061,0 32.9308331322,44.6594443532,0 32.9363886576,44.7313887846,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-108</name>
+			<description>Upper limit FL 245
+Lower limit SFC
+Remarks
+Planned hours specified in daily UK AUP
+AMC-manageable area
+Firing
+Real-time activity information and/or crossing
+clearance from: Odesa Radar 123.950
+NOTAM</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					32.9152775772,44.8797221097,0 33.098610922,44.7463887871,0 33.1819442224,44.7463887871,0 33.1819442224,44.8597221343,0 32.9152775772,44.8797221097,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-109</name>
+			<description>Upper limit FL 285
+Lower limit SFC
+Remarks
+Planned hours specified in daily UK AUP
+AMC-manageable area
+Firing
+Real-time activity information and/or crossing clearance from: Odesa Radar 123.950
+NOTAM</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					32.8069442447,44.0913887773,0 33.0999998033,44.4666665733,0 32.8666664783,44.6499998761,0 32.423610895,44.4163887748,0 32.8069442447,44.0913887773,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-109Z</name>
+			<description>Upper limit FL 295
+Lower limit FL 275
+Remarks
+FBZ around and including UKD109
+Activation simultaneously with UKD109
+Flight planning up to the boundary of FBZ is allowed</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					32.8786109417,44.012222121,0 33.2430553373,44.4780554423,0 32.8822220333,44.7619443421,0 32.3133331286,44.4619443347,0 32.3019442177,44.389722127,0 32.757499817,44.0038887909,0 32.8786109417,44.012222121,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-110</name>
+			<description>Upper limit FL 275
+Lower limit SFC
+Remarks
+Planned hours specified in daily UK AUP
+AMC-manageable area
+Training area
+Real-time activity information and/or crossing
+clearance from: Odesa Radar 123.950
+NOTAM</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					32.1319442177,44.7997221245,0 32.1986109419,44.683055462,0 32.7577775932,44.5930554472,0 32.8666664783,44.6499998761,0 32.816666498,44.6999998983,0 32.6561108912,45.20472210720001,0 32.6286108728,45.20805546430001,0 32.6569442201,45.2497221145,0 32.5052775378,45.3069443198,0 32.2736108704,44.9913887993,0 32.1319442177,44.7997221245,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-110Z</name>
+			<description>Upper limit FL 285
+Lower limit FL 275
+Remarks
+FBZ around and including UKD110
+Activation simultaneously with UKD110
+Flight planning up to the boundary of FBZ is allowed</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					32.0024998048,44.8041665448,0 32.1133331237,44.6108332124,0 32.7838886465,44.5030554324,0 32.9747220345,44.6027776586,0 32.9899998132,44.6705554459,0 32.9261109356,44.7347220999,0 32.7711109381,45.2244443481,0 32.7844441991,45.2436109947,0 32.7547220542,45.3074999142,0 32.5174997776,45.39722211080001,0 32.4230553424,45.376666541,0 32.1688887132,45.0299999106,0 32.0024998048,44.8041665448,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-111</name>
+			<description>Upper limit FL 295
+Lower limit SFC
+Remarks
+Planned hours specified in daily UK AUP
+AMC-manageable area
+Training area
+Real-time activity information and/or crossing
+clearance from: Odesa Radar 123.950
+NOTAM</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					32.6561108912,45.20472210720001,0 32.816666498,44.6999998983,0 32.8666664783,44.6499998761,0 33.3719441977,44.8747221368,0 33.1833331038,44.9866665608,0 32.9719442718,45.0927776831,0 32.7538886416,45.2022221207,0 32.7486108925,45.19305546189999,0 32.6561108912,45.20472210720001,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-111Z</name>
+			<description>Upper limit FL 305
+Lower limit &gt;FL 275
+Remarks
+FBZ around and including UKD111
+Activation simultaneously with UKD111
+Flight planning up to the boundary of FBZ is allowed</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					32.5266664783,45.2299999155,0 32.7074997529,44.6649998786,0 32.8355553682,44.5372221233,0 33.4849998106,44.826110996,0 33.493610875,44.9113887722,0 33.2552775771,45.0530554668,0 33.0402775697,45.161111023,0 32.792777571,45.2852776868,0 32.6074997923,45.2899998834,0 32.5266664783,45.2299999155,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-112</name>
+			<description>Upper limit FL 255
+Lower limit SFC
+Remarks
+Planned hours specified in daily UK AUP
+AMC-manageable area
+Training area
+Real-time activity information and/or crossing
+clearance from: Odesa Radar 123.950
+Odesa Radar 134.675
+NOTAM</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					32.423610895,44.4163887748,0 32.8069442447,44.0913887773,0 33.1833331038,43.9166665808,0 33.1833331038,44.4166665511,0 33.0999998033,44.4666665733,0 32.8666664783,44.6499998761,0 32.423610895,44.4163887748,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-114</name>
+			<description>Upper limit FL 255
+Lower limit SFC
+Remarks
+Planned hours specified in daily UK AUP
+AMC-manageable area
+Training area
+Real-time activity information and/or crossing
+clearance from: Odesa Radar 123.950,
+Odesa Radar 134.675, Dnipro Radar 134.300
+NOTAM</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					33.1833331038,43.9166665808,0 33.4805553065,43.8788887983,0 33.8791664349,43.9247221345,0 33.8847220441,44.0830554473,0 33.5736108602,44.3469443298,0 33.5924998143,44.5188887637,0 33.1833331038,44.4166665511,0 33.1833331038,43.9166665808,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-122</name>
+			<description>Upper limit FL 125
+Lower limit SFC
+Remarks
+Planned hours specified in daily UK AUP
+AMC-manageable area
+Rocket firing
+Real-time activity information and/or
+crossing clearance from:
+Odesa Radar 123.950
+Odesa Radar 134.675
+NOTAM</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					32.5819442077,45.3330554569,0 31.1819442573,44.8663887648,0 31.86527757249999,43.8330554621,0 33.1819442224,43.8330554621,0 33.1819442224,45.1830554323,0 32.5819442077,45.3330554569,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-130</name>
+			<description>Upper limit FL 295
+Lower limit SFC
+Remarks
+lanned hours specified in daily UK AUP
+AMC-manageable area
+Firing
+Training area
+Real-time activity information and/or crossing
+clearance from: Dnipro Radar 134.300
+NOTAM</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					35.1588886732,45.3633332381,0 34.9236109142,45.1894443284,0 34.7219442517,44.8044443211,0 34.7141664323,44.6816665806,0 34.6966664434,44.3977776808,0 35.0874997524,44.1913887798,0 35.2069442195,44.1691665524,0 35.3263886867,44.1469443249,0 36.415277537,44.2499999083,0 36.396666443,44.7033332136,0 36.3819442168,44.9016665608,0 36.238055354,45.0299999106,0 35.8230553417,45.1627776807,0 35.5458331144,45.24944433830001,0 35.1588886732,45.3633332381,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-130A</name>
+			<description>Upper limit FL 295
+Lower limit SFC
+Remarks
+Planned hours specified in daily UK AUP
+AMC-manageable area
+Firing
+Training area
+Real-time activity information and/or crossing
+clearance from: Dnipro Radar 134.300
+NOTAM</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					35.1588886732,45.3633332381,0 34.9236109142,45.1894443284,0 34.7219442517,44.8044443211,0 34.7141664323,44.6816665806,0 35.2069442195,44.6663888019,0 35.2580553049,44.753611012,0 35.5458331144,45.24944433830001,0 35.1588886732,45.3633332381,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-130B</name>
+			<description>Upper limit FL 295
+Lower limit SFC
+Remarks
+lanned hours specified in daily UK AUP
+AMC-manageable area
+Firing
+Training area
+Real-time activity information and/or crossing
+clearance from: Dnipro Radar 134.300
+NOTAM</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					35.5458331144,45.24944433830001,0 35.2580553049,44.753611012,0 35.7855553775,44.7322221134,0 35.8230553417,45.1627776807,0 35.5458331144,45.24944433830001,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-130C</name>
+			<description>Upper limit FL 295
+Lower limit SFC
+Remarks
+Planned hours specified in daily UK AUP
+AMC-manageable area
+Firing
+Training area
+Real-time activity information and/or crossing
+clearance from: Dnipro Radar 134.300
+NOTAM</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					35.8230553417,45.1627776807,0 35.7855553775,44.7322221134,0 36.396666443,44.7033332136,0 36.3819442168,44.9016665608,0 36.238055354,45.0299999106,0 35.8230553417,45.1627776807,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-130D</name>
+			<description>Upper limit FL 295 
+Lower limit SFC
+Remarks
+anned hours specified in daily UK AUP
+AMC-manageable area
+Firing
+Training area
+Real-time activity information and/or crossing
+clearance from: Dnipro Radar 134.300
+NOTAM</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					34.7141664323,44.6816665806,0 34.6966664434,44.3977776808,0 35.0874997524,44.1913887798,0 35.2069442195,44.1691665524,0 35.2083331009,44.4999998934,0 35.206388667,44.6663888019,0 34.7141664323,44.6816665806,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-130E</name>
+			<description>Upper limit FL 295
+Lower limit SFC
+Remarks
+Planned hours specified in daily UK AUP
+AMC-manageable area
+Firing
+Training area
+Real-time activity information and/or crossing
+clearance from: Dnipro Radar 134.300
+NOTAM</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					35.2580553049,44.753611012,0 35.2069442195,44.6663888019,0 35.2083331009,44.4999998934,0 35.7636108844,44.4774998897,0 35.7855553775,44.7322221134,0 35.2580553049,44.753611012,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-130F</name>
+			<description>Lower limit SFC
+Remarks
+Planned hours specified in daily UK AUP
+AMC-manageable area
+Firing
+Training area
+Real-time activity information and/or crossing
+clearance from: Dnipro Radar 134.300
+NOTAM</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					35.7855553775,44.7322221134,0 35.7636108844,44.4774998897,0 35.2083331009,44.4999998934,0 35.2069442195,44.1691665524,0 35.3263886867,44.1469443249,0 36.415277537,44.2499999083,0 36.396666443,44.7033332136,0 35.7855553775,44.7322221134,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-130G</name>
+			<description>Upper limit FL 145
+Lower limit SFC
+Remarks
+Planned hours specified in daily UK AUP
+AMC-manageable area
+Firing
+Training area
+Real-time activity information and/or crossing
+clearance from: Dnipro Radar 134.300
+NOTAM</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					35.8244442231,45.19777765849999,0 35.8230553417,45.1627776807,0 35.7855553775,44.7322221134,0 36.396666443,44.7033332136,0 36.3819442168,44.9016665608,0 36.3474997916,44.9933332332,0 36.2830553614,45.0499998859,0 35.9719442613,45.1552776794,0 35.8244442231,45.19777765849999,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-200A</name>
+			<description>Upper limit FL 265
+Lower limit SFC
+Remarks
+Planned hours specified in daily UK AUP
+AMC-manageable area
+Bombing, artillery firing, rocket launching, blasting
+Real-time activity information and/or crossing clearance from Odesa Radar 120.900, Odesa Radar 132.200,
+Odesa Radar 130.475, Odesa Radar 123.950
+NOTAM</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					31.6297220372,46.6833332452,0 30.8852776072,45.76138877210001,0 31.2499997791,45.2333332307,0 32.1833331631,45.5833332183,0 32.8666664783,45.8999998857,0 32.8236109048,46.16111100559999,0 31.6297220372,46.6833332452,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-200B</name>
+			<description><![CDATA[Upper limit FL 265
+Lower limit SFC
+Remarks
+Planned hours specified in daily UK AUP
+AMC-manageable areaPlanned hours specified in daily UK AUP
+AMC-manageable area
+Bombing, artillery firing, rocket launching, blasting
+Real-time activity information and/or crossing clearance from Odesa Radar 123.950
+NOTAM
+Bombing, artillery firing, rocket launching, blasting
+Real-time activity information and/or crossing clearance from Odesa Radar 120.900, Odesa Radar 132.200,
+Odesa Radar 130.475, Odesa Radar 123.950
+NOTAM</td>]]></description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					32.1833331631,45.5833332183,0 31.2499997791,45.2333332307,0 30.5766664935,44.9833332456,0 31.9166664341,44.6666665781,0 32.1833331631,45.5833332183,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-200C</name>
+			<description>Upper limit FL 265
+Lower limit SFC
+Remarks
+Planned hours specified in daily UK AUP
+AMC-manageable area
+Bombing, artillery firing, rocket launching, blasting
+Real-time activity information and/or crossing clearance from Odesa Radar 132.200, Odesa Radar 123.950
+NOTAM</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					30.8852776072,45.76138877210001,0 30.37805537,45.110277672,0 30.4999998236,44.9999999057,0 30.5766664935,44.9833332456,0 31.2499997791,45.2333332307,0 30.8852776072,45.76138877210001,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-201</name>
+			<description>Upper limit FL 155
+Lower limit SFC
+Remarks
+Blondinka Approach
+132.300 MHZ Planned hours specified in daily UK AUP
+TRA AMC-manageable area
+Training area
+Training flights
+MON-SUN 03:00-23:59 (02:00-23:59)
+Real-time activity information and/or
+crossing clearance from:
+Odesa Radar 130.475, Odesa Radar 123.950 (132.175)</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					31.874166497,46.0638887658,0 31.6430553821,45.7513887844,0 32.3136109049,45.7508332318,0 32.5219441979,46.0058332318,0 31.874166497,46.0638887658,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-204</name>
+			<description>Upper limit FL 295
+Lower limit SFC
+Remarks
+Planned hours specified in daily UK AUP
+AMC-manageable area
+Rocket firing
+Real-time activity information and/or crossing
+clearance from: Odesa Radar 123.950
+NOTAM</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					33.1833331038,44.9866665608,0 32.6569442201,45.2497221145,0 32.5052775378,45.3069443198,0 32.2736108704,44.9913887993,0 32.1319442177,44.7997221245,0 32.1986109419,44.683055462,0 33.1833331038,44.5222221209,0 33.1833331038,44.9866665608,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>UKD-204Z</name>
+			<description>Upper limit FL 305
+Lower limit FL 275
+Remarks
+FBZ around and including UKD204
+Activation simultaneously with UKD204
+Flight planning up to the boundary of FBZ is allowed</description>
+			<gx:TimeStamp><when>2024-10-10T10:43:45.126Z</when>
+</gx:TimeStamp>
+			<styleUrl>#TrackStyle_FF7043C8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					33.3013886896,45.02972213429999,0 32.7191664401,45.3211109934,0 32.5174997776,45.39722211080001,0 32.4230553424,45.376666541,0 32.1688887132,45.0299999106,0 32.0024998048,44.8041665448,0 32.1133331237,44.6108332124,0 33.2116664511,44.4313887773,0 33.3002775845,44.481944352,0 33.3013886896,45.02972213429999,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.7.1155"></atom:link>
+	</Folder>
+</Document>
+</kml>
