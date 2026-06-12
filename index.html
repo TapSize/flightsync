@@ -9,7 +9,6 @@
 <meta
 name="viewport"
 content="width=device-width, initial-scale=1.0"
-
 >
 
 <title>
@@ -43,36 +42,44 @@ INITIALIZING SYSTEM
 
 <script>
 
-const session=
+setTimeout(()=>{
 
+const session =
 localStorage.getItem(
 'flightsync_session'
 )
 
-setTimeout(()=>{
-
 if(
+
 session
+
+&&
+
+session !== 'null'
+
+&&
+
+session !== ''
+
 ){
 
-window.location.href=
-
+window.location.replace(
 'map.html'
+)
 
 }
 
 else{
 
-window.location.href=
-
+window.location.replace(
 'login.html'
+)
 
 }
 
 },1500)
 
 </script>
-
 
 </body>
 
