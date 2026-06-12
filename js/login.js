@@ -83,7 +83,15 @@ password
 )
 
 .maybeSingle()
+console.log(
+'LOGIN:',
+data
+)
 
+console.log(
+'ERROR:',
+dbError
+)
 if(
 dbError
 ||
@@ -99,11 +107,7 @@ document
 
 error.innerText=
 'Невірний логін та пароль'
-console.log(
-'LOGIN RESULT',
-data,
-error
-)
+
 return
 
 }
