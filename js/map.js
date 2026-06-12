@@ -1,50 +1,9 @@
 import { supabase } from "./supabase.js"
-const session =
-JSON.parse(
-localStorage.getItem(
-'flightsync_session'
-))
+const session =JSON.parse(localStorage.getItem('flightsync_session'))
 
-if(!session){
-
-window.location.href =
-'login.html'
-
-}
-
-async function loadUser()
+if(!session)
 {
-
-    if(!session)
-    {
-        window.location.href='login.html'
-        return
-    }
-
-    const{data,error}=await supabase
-
-    .from('users')
-
-    .select('username, userrole')
-
-    .eq('email',session.email)
-
-    .single()
-
-    if(error || !data)
-    {
-        console.error('USER LOAD ERROR',error)
-        return
-    }
-
-    window.currentUser=data
-
-    document.getElementById('userNAME').innerText=data.username
-
-    document.getElementById('userLOGIN').innerText=session.email
-    console.error('SUCESS', data.username)
-    console.error('SUCESS', session.email)
-
+    window.location.href = 'login.html'
 }
 
 
@@ -68,45 +27,26 @@ updateClock,
 1000
 )
 
-document.getElementById('logout').onclick=()=>{
-    localStorage.removeItem(
-    'flightsync_session'
-    )
-
-    window.location.href =
-    'login.html'
-
-}
-
-const map =
-
-L.map(
-'map',
+document.getElementById('logout').onclick=()=>
 {
-zoomControl:false
+    localStorage.removeItem('flightsync_session')
+    window.location.href = 'login.html'
 }
-)
+
+const map = L.map('map',
+{
+    zoomControl:false
+})
 
 .setView(
-[
-49.0,
-31.0
-],
-6
-)
+[49.0,31.0],6)
 
-L.tileLayer(
-
-'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
 {
-maxZoom:19
-}
+    maxZoom:19
+})
 
-)
-.addTo(
-map
-)
+.addTo(map)
 
 async function loadAircraft(){
 
@@ -366,10 +306,6 @@ document
 )
 
 .onclick=()=>{
-
-alert(
-'ZONES COMING SOON'
-)
 
 }
 const layerMenu =
@@ -1066,21 +1002,41 @@ airportsLayer
 }
 
 }
-window.onload=()=>{
-loadUser()
-document
-.getElementById(
-'airportMenuClose'
-)
-
-.onclick=()=>{
-
-document
-.getElementById(
-'airportMenu'
-)
-.style.display='none'
-
+window.onload=async()=>
+{
+    await loadUser()
+    document.getElementById('airportMenuClose').onclick=()=>
+    {
+        document.getElementById('airportMenu').style.display='none'
+    }
 }
+async function loadUser()
+{
+
+    const{data,error}=await supabase
+
+    .from('users')
+
+    .select('username, userrole')
+
+    .eq('auth_id',session.authid)
+
+    .single()
+
+    if(error || !data)
+    {
+        console.error('USER LOAD ERROR',error)
+        return
+    }
+
+    window.currentUser=data
+
+    document.getElementById('username').innerText=data.username
+
+    document.getElementById('userid').innerText=session.authid
+
+    alert(
+    '2'
+    )
 
 }
